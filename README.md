@@ -73,21 +73,32 @@ Desktop (≥ 1024px)
 All elements resize automatically for different screen sizes.
 
 🎯 Use Cases
+
 Portfolio hero sections
+
 Landing page storytelling
+
 Product feature walkthrough
+
 Interactive UI demonstrations
 
 🚀 Future Improvements
+
 Car wheel rotation
+
 Speed-based motion
+
 Parallax background
+
 Multiple sections storytelling
-Sound effects (optional)
+
+Sound effects
 
 
 👨‍💻 Author
 
+
 Sathish
+
 
 Frontend Developer | Learning advanced UI animations
