@@ -1,3 +1,5 @@
+https://sathish05007.github.io/Itzfizz-Digital-assignment/
+
 🚗 Scroll Car Animation (GSAP + ScrollTrigger)
 
 An interactive scroll-based animation where a car moves horizontally as the user scrolls vertically.
