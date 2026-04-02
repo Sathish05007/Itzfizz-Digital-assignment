@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background: #121212;
+    color: white;
+}
+
+/* Sections */
+.hero-section {
+    height: 400vh;
+    position: relative;
+}
+
+.hero-track {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d1d1d1;
+}
+
+/* Road & car */
+.road-area {
+    width: 100vw;
+    height: 200px;
+    background: #1e1e1e;
+    position: relative;
+    overflow: hidden;
+}
+
+.car-img {
+    height: 200px;
+    width: 420px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.road-trail {
+    height: 200px;
+    background: #45db7d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 0;
+}
+
+/* WELCOME letters */
+.hero-text {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    display: flex;
+    gap: 0.3rem;
+    font-size: 7rem;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.value-letter {
+    opacity: 0;
+    color: white;
+    font-family: cursive;
+}
+
+/* Info cards */
+.info-card {
+    opacity: 0;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#box1 {
+    background: #def54f;
+    color: #111;
+    top: 5%;
+    right: 30%;
+}
+
+#box2 {
+    background: #6ac9ff;
+    color: #111;
+    bottom: 5%;
+    right: 35%;
+}
+
+#box3 {
+    background: #333;
+    color: #fff;
+    top: 5%;
+    right: 10%;
+}
+
+#box4 {
+    background: #fa7328;
+    color: #111;
+    bottom: 5%;
+    right: 12.5%;
+}
+
+.num-box {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:426px) {
+    .hero-section {
+        height: 400vh;
+    }
+
+    .info-card {
+        width: 120px;
+        height: 100px;
+        font-size: 10px;
+    }
+
+    #box1,
+    #box2 {
+        margin: 0 50px;
+    }
+
+    .num-box {
+        font-size: 20px;
+    }
+
+    .car-img {
+        height: 114px;
+        width: 63%;
+        top: 20px;
+    }
+
+    .road-trail {
+        height: 150px;
+    }
+
+    .road-area {
+        height: 150px;
+    }
+
+    .hero-text {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:769px) and (min-width:427px) {
+    .hero-section {
+        height: 350vh;
+    }
+
+    .info-card {
+        width: 140px;
+        height: 130px;
+        font-size: 14px;
+    }
+
+    .num-box {
+        font-size: 25px;
+    }
+
+    .car-img {
+        height: 160px;
+        width: 45%;
+        top: 12px;
+    }
+
+    .road-trail {
+        height: 180px;
+    }
+
+    .road-area {
+        height: 180px;
+    }
+
+    .hero-text {
+        font-size: 5rem;
+    }
+}
